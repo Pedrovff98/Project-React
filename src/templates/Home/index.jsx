@@ -68,6 +68,8 @@ export const Home = () => {
       />
       </div>
 
+      <br />
+
       {filteredPosts.length > 0 &&(
         <Posts posts = {filteredPosts} />
       )}
