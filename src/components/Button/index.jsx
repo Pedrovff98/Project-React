@@ -1,6 +1,6 @@
 import './styles.css';
 
-import { Component } from "react/cjs/react.development";
+import { Component } from "react";
 
 export class Button extends Component {
 

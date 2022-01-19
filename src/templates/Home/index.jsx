@@ -85,7 +85,7 @@ export const Home = () => {
         {!searchValue && (
            <Button 
            text = 'Load more posts'
-           onClick = {loadMorePosts} // apenas definindo uma props 
+           onClick = {loadMorePosts} // apenas definindo uma props  
            disabled = {noMorePosts}
            />
         )}
